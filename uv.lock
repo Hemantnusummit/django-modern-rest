@@ -1043,7 +1043,7 @@ dev = [
     { name = "schemathesis", specifier = "==4.26.1" },
     { name = "skills-ref", specifier = ">=0.1,<0.2" },
     { name = "slotscheck", specifier = ">=0.19,<0.22" },
-    { name = "strict-no-cover", specifier = ">=0.1,<1.0" },
+    { name = "strict-no-cover", specifier = ">=0.1,<1" },
     { name = "syrupy", specifier = ">=5.1,<7" },
     { name = "testcontainers", extras = ["redis"], specifier = ">=4.15,<5" },
     { name = "tracecov", specifier = ">=0.23,<0.26" },
@@ -1114,7 +1114,7 @@ unit-test = [
     { name = "pytest-randomly", specifier = ">=4,<6" },
     { name = "pytest-timeout", specifier = ">=2.4,<3" },
     { name = "pytest-xdist", specifier = ">=3.8,<4" },
-    { name = "strict-no-cover", specifier = ">=0.1,<1.0" },
+    { name = "strict-no-cover", specifier = ">=0.1,<1" },
     { name = "syrupy", specifier = ">=5.1,<7" },
     { name = "xmltodict-rs", specifier = ">=0.13,<0.14" },
 ]
@@ -4425,14 +4425,14 @@ wheels = [
 
 [[package]]
 name = "zapros"
-version = "0.20.0"
+version = "0.21.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "h11" },
     { name = "pywhatwgurl" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/29/74/474aff4065017319dc355577629592936480ba63d06a82736ec4eaed9d71/zapros-0.20.0.tar.gz", hash = "sha256:147331bec0d8374b16622e9a0b00372fa81b7c430708113cffb42620e09f1d54", size = 976502, upload-time = "2026-10-07T18:33:21.003Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/0c/3b/e25de2470d0980d4b34f23817636311b338b5241b2e66532ed0344f4dff5/zapros-0.21.0.tar.gz", hash = "sha256:dadfd9194947a2432668f315cc8e5ec15831308df3c47cfcb936a688629ba523", size = 1000820, upload-time = "2026-10-12T15:17:15.174Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a3/28/0047bbc545bd4f74ff04697ef7869b962165afc116fdf475c24a490c073e/zapros-0.20.0-py3-none-any.whl", hash = "sha256:b2e79283dbd0547cae6c10387f503bfe3fa06feb3ce34754269959d547619b1e", size = 122775, upload-time = "2026-10-07T18:33:14.468Z" },
+    { url = "https://files.pythonhosted.org/packages/9e/08/afe4f13d32c71809d8fa21185e3a5e88865659146209b446e5a8842f78be/zapros-0.21.0-py3-none-any.whl", hash = "sha256:060fefb2b80431d989bde2d884a6f1706335ea47d0749a24815d26b2b1667d5a", size = 123627, upload-time = "2026-10-12T15:17:13.531Z" },
 ]
