@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.11"
 resolution-markers = [
     "python_full_version >= '3.15'",
@@ -1043,7 +1043,7 @@ dev = [
     { name = "schemathesis", specifier = "==4.26.1" },
     { name = "skills-ref", specifier = ">=0.1,<0.2" },
     { name = "slotscheck", specifier = ">=0.19,<0.22" },
-    { name = "strict-no-cover", specifier = ">=0.1,<1.0" },
+    { name = "strict-no-cover", specifier = ">=0.1,<1" },
     { name = "syrupy", specifier = ">=5.1,<7" },
     { name = "testcontainers", extras = ["redis"], specifier = ">=4.15,<5" },
     { name = "tracecov", specifier = ">=0.23,<0.26" },
@@ -1114,7 +1114,7 @@ unit-test = [
     { name = "pytest-randomly", specifier = ">=4,<6" },
     { name = "pytest-timeout", specifier = ">=2.4,<3" },
     { name = "pytest-xdist", specifier = ">=3.8,<4" },
-    { name = "strict-no-cover", specifier = ">=0.1,<1.0" },
+    { name = "strict-no-cover", specifier = ">=0.1,<1" },
     { name = "syrupy", specifier = ">=5.1,<7" },
     { name = "xmltodict-rs", specifier = ">=0.13,<0.14" },
 ]
